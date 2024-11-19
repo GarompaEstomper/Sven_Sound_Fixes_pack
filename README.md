@@ -11,7 +11,7 @@ for Sven Co-op 5.0+ by Garompa as of 14/09/2024
 
 This pack of sounds replaces the next things in most maps:
 
-* Any dialgue mentioning Gordon Freeman or any other charactera as the player is now replaced with a generic mention (since you do not play as anyone with a name), this includes some G-Man lines as well.
+* Any dialgue mentioning Gordon Freeman or any other characters as the player is now replaced with a generic mention (since you do not play as anyone with a name), this includes some G-Man lines as well.
 * Any other mention about the players being just one individual were cut or replaced to insinuate you are a group of people
 * Really bad voice acting has been enhanced
 * Unintelligible mumbling due to poor quality or recording of voices or bad accents has all been replaced with AI generated new voices
