@@ -1,6 +1,8 @@
 # Sven Co-op Consistency Soundfix Pack
 for Sven Co-op 5.0+ by Garompa as of 14/09/2024
 
+![soundfixes](https://github.com/GarompaEstomper/Sven_Sound_Fixes_pack/blob/main/soundfixes.jpg)
+
 ## Links
 
 [GoogleDrive](https://drive.google.com/file/d/1KADgSvjjHHQiBg-Tpfxg9s-xMYO4ZpnQ/view?usp=sharing)
