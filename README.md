@@ -5,7 +5,8 @@ for Sven Co-op 5.0+ by Garompa as of 14/09/2024
 
 ## Links
 
-[GoogleDrive](https://drive.google.com/file/d/1KADgSvjjHHQiBg-Tpfxg9s-xMYO4ZpnQ/view?usp=sharing)
+- [Discord](https://discord.com/channels/170051548284583937/1308549934311542854)
+- [GoogleDrive](https://drive.google.com/file/d/1KADgSvjjHHQiBg-Tpfxg9s-xMYO4ZpnQ/view?usp=sharing)
 
 ## Description
 
