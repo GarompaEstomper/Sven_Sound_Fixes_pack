@@ -23,3 +23,4 @@ This pack of sounds replaces the next things in most maps:
 ## Credits
 
 * Garompa
+* AMM_AG (Sweet Half-Life voices)
