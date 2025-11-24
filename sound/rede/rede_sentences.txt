@@ -1,0 +1,707 @@
+//Speech file for "Redemption"
+// Max of 1023 sentences.
+
+//Gman Intro Scripts. Spoken by Gman in office scene
+
+GMAN_RI1 rede/redgman/rgman01
+GMAN_RI2 rede/redgman/rgman02
+GMAN_RI3 rede/redgman/rgman03
+GMAN_RI4 rede/redgman/rgman04
+GMAN_RI5 rede/redgman/rgman05
+GMAN_RI6 rede/redgman/rgman06
+GMAN_RI7 rede/redgman/rgman07
+GMAN_RI8 rede/redgman/rgman08
+GMAN_RI8b rede/redgman/rgman08b
+GMAN_RI9 rede/redgman/rgman09
+GMAN_RI10 rede/redgman/rgman10
+GMAN_RI11 rede/redgman/rgman11
+GMAN_RI12 scientist/_comma
+
+// gman carnival script
+GMAN_E201 rede/redgman/rgman13
+
+// gman cutscene scripts with goon
+GMAN_E202 rede/redgman/rgman14
+GMAN_E203 rede/redgman/rgman15
+GMAN_E204 rede/redgman/rgman16
+
+//gman endgame speechs
+GMAN_E401 rede/redgman/rgman17
+GMAN_E402 rede/redgman/rgman18
+
+// safe house door - mod fire doors
+NFIRE0 vox/access to surface, denied
+EFIRE0 vox/surface access, granted
+
+//Safehouse computer
+SHSE_WARN vox/authorized access detected topside,. magnetic lock deactivated. please proceed to surface
+
+// Modified HEV Suit
+
+// powerup
+
+HEV_AAx rede/redamb/bell, HEV6_logon, communications_on, atmospherics_on, vitalsigns_on, automedic_on
+HEV_A0 rede/redamb/bell, HEV6_logon
+
+HEV_A1 fvox/blip blip(p130) powermove_on
+HEV_A2 fvox/blip blip powerarmor_on
+HEV_A3 fvox/blip blip(p130) atmospherics_on
+HEV_A4 fvox/blip blip vitalsigns_on boop, boop, boop
+HEV_A5 fvox/blip blip(p130) munitionview_on
+HEV_A6 fvox/blip blip communications_on
+HEV_A7 fvox/blip blip(p70) weaponselect_on
+HEV_A8 fvox/blip blip(p70) automedic_on
+HEV_A9 fvox/fuzz power_level_is onehundred percent
+HEV_A10 fvox/safe_day, bell
+
+// medical
+HEV_DEAD0 fvox/beep beep, beep beep, beep, beep, flatline
+HEV_DEAD1 fvox/beep beep, beep beep, beep, flatline
+
+HEV_MED0 fvox/(p140) boop, boop, boop, (p100) innsuficient_medical
+HEV_MED1 fvox/(p140) boop, boop, boop, (p100) automedic_on
+HEV_MED2 fvox/(p140) boop, boop, boop, (p100) administering_medical
+
+HEV_HEAL0 fvox/(p140) boop, boop, boop, (p100) wound_sterilized, blip(p130 v50), blip(p130 v40), hiss, morphine_shot
+HEV_HEAL1 fvox/(p140) boop, boop, boop, (p100) torniquette_applied, bleeding_stopped
+HEV_HEAL2 fvox/(p140) boop, boop, boop, (p100) bleeding_stopped
+HEV_HEAL3 fvox/(p140) boop, boop, boop, (p100) blood_plasma
+HEV_HEAL4 fvox/(p140) boop, boop, boop, (p100) hiss, antitoxin_shot
+HEV_HEAL5 fvox/(p140) boop, boop, boop, (p100) hiss, antidote_shot
+HEV_HEAL6 fvox/(p140) boop, boop, boop, (p100) hiss, wound_sterilized
+HEV_HEAL7 fvox/(p140) boop, boop, boop, (p100) hiss, morphine_shot
+HEV_HEAL8 fvox/(p140) boop, boop, boop, (p100) medical_repaired
+
+HEV_DMG0 fvox/(p160) boop, boop, boop, (p100) minor_lacerations
+HEV_DMG1 fvox/(p160) boop, boop, boop, (p100) major_lacerations
+HEV_DMG2 fvox/(p160) boop, boop, boop, (p100) internal_bleeding
+HEV_DMG3 fvox/(p160) boop, boop, boop, (p100) blood_toxins
+HEV_DMG4 fvox/(p160) boop, boop, boop, (p100) minor_fracture
+HEV_DMG5 fvox/(p160) boop, boop, boop, (p100) major_fracture
+HEV_DMG6 fvox/(p160) boop, boop, boop, (p100) blood_loss
+HEV_DMG7 fvox/(p140) boop, boop, boop, (p100) seek_medic
+
+HEV_HLTH0 fvox/(p120) beep, beep, (p100) health_dropping
+HEV_HLTH1 fvox/(p120) beep, beep, (p100) health_dropping2
+HEV_HLTH2 fvox/(p120) beep, beep, beep, (p100) health_critical
+HEV_HLTH3 fvox/(p120) beep, beep, beep, (p100) near_death
+HEV_HLTH4 fvox/(p140) beep, beep, (p100) health_dropping2, evacuate_area
+HEV_HLTH5 fvox/(p140) beep, beep, beep, (p100) health_critical, evacuate_area
+HEV_HLTH6 fvox/(p140) beep, beep, beep, (p100) near_death, evacuate_area immediately
+
+HEV_SHOCK fvox/(p120) beep, beep, (p100) warning, shock_damage
+HEV_FIRE fvox/(p120) beep, beep, (p100) warning, heat_damage
+
+// SCIENTIST
+//scientists (pre disaster flag set)
+
+SC_PHELLO0 scientist/greetings2
+SC_PHELLO1 scientist/greetings2
+SC_PHELLO2 scientist/goodtoseeyou
+SC_PHELLO3 scientist/greetings
+SC_PHELLO4 scientist/hello
+SC_PHELLO5 scientist/hellothere
+SC_PHELLO6 scientist/hello2
+
+SC_PQUEST0 scientist/beverage
+SC_PQUEST1 scientist/statusreport
+SC_PQUEST2 scientist/tunnelcalc
+SC_PQUEST3 scientist/shakeunification
+SC_PQUEST4 scientist/correcttheory
+SC_PQUEST5 scientist/analysis
+SC_PQUEST6 scientist/purereadings
+SC_PQUEST7 scientist/newsample
+SC_PQUEST8 scientist/perfectday
+SC_PQUEST9 scientist/cascade
+SC_PQUEST10 scientist/delayagain
+SC_PQUEST11 scientist/softethics
+SC_PQUEST12 scientist/tunedtoday
+SC_PQUEST13 scientist/donuteater
+SC_PQUEST14 scientist/seencup
+SC_PQUEST15 scientist/hungryyet
+SC_PQUEST16 scientist/recalculate
+SC_PQUEST17 scientist/checkatten
+
+SC_PIDLE0 scientist/hideglasses
+SC_PIDLE1 scientist/weartie
+SC_PIDLE2 scientist/runtest
+SC_PIDLE3 scientist/limitsok
+SC_PIDLE4 scientist/asexpected
+SC_PIDLE5 scientist/thatsodd
+SC_PIDLE6 scientist/allnominal
+SC_PIDLE7 scientist/shutdownchart
+SC_PIDLE8 scientist/reportflux
+SC_PIDLE9 scientist/simulation
+SC_PIDLE10 scientist/hopenominal
+
+//scientist speech
+
+SC_OK0 scientist/excellentteam
+SC_OK1 scientist/fellowscientist
+SC_OK2 scientist/fine
+SC_OK3 scientist/hopeyouknow
+SC_OK4 scientist/leadtheway
+SC_OK5 scientist/letsgo
+SC_OK6 scientist/yesletsgo
+SC_OK7 scientist/yes3
+SC_OK8 scientist/alright
+
+SC_WAIT0 scientist/beenaburden
+SC_WAIT1 scientist/slowingyou
+SC_WAIT2 scientist/reconsider
+SC_WAIT3 scientist/whyleavehere
+SC_WAIT4 scientist/illwaithere
+SC_WAIT5 scientist/istay
+SC_WAIT6 scientist/illwait
+
+// fail to follow player any more
+SC_STOP0 scientist/stop1
+SC_STOP1 scientist/stop2
+SC_STOP2 scientist/stop3
+SC_STOP3 scientist/stop4
+
+
+// player is staring at scientist
+SC_STARE0 scientist/yees
+SC_STARE1 scientist/areyouthink
+SC_STARE2 scientist/noidea
+
+SC_HELLO0 scientist/hellothere
+SC_HELLO1 scientist/greetings
+SC_HELLO2 scientist/greetings
+SC_HELLO3 scientist/greetings2
+SC_HELLO4 scientist/hello
+SC_HELLO5 scientist/goodtoseeyou
+SC_HELLO6 scientist/newhevsuit
+SC_HELLO7 scientist/hello2
+SC_HELLO8 scientist/inmesstoo
+
+SC_ANSWER0 scientist/notsure
+SC_ANSWER1 scientist/notcertain
+SC_ANSWER2 scientist/perhaps
+SC_ANSWER3 scientist/whocansay
+SC_ANSWER4 scientist/inconclusive
+SC_ANSWER5 scientist/theoretically
+SC_ANSWER6 scientist/whyaskme
+SC_ANSWER7 scientist/lowervoice
+SC_ANSWER8 scientist/ofcourse
+SC_ANSWER9 scientist/absolutely
+SC_ANSWER10 scientist/yes
+SC_ANSWER11 scientist/ibelieveso
+SC_ANSWER12 scientist/right
+SC_ANSWER13 scientist/imsure
+SC_ANSWER14 scientist/positively
+SC_ANSWER15 scientist/nodoubt
+SC_ANSWER16 scientist/yees
+SC_ANSWER17 scientist/ofcoursenot
+SC_ANSWER18 scientist/absolutelynot
+SC_ANSWER19 scientist/noo
+SC_ANSWER20 scientist/idontthinkso
+SC_ANSWER21 scientist/completelywrong
+SC_ANSWER22 scientist/cantbeserious
+SC_ANSWER23 scientist/dontknow
+SC_ANSWER24 scientist/ridiculous
+SC_ANSWER25 scientist/shutup
+SC_ANSWER26 scientist/noguess
+SC_ANSWER27 scientist/stopasking
+SC_ANSWER28 scientist/justasked
+SC_ANSWER29 scientist/repeat
+
+SC_QUESTION0 scientist/everseen
+SC_QUESTION1 scientist/needsleep
+SC_QUESTION2 scientist/areyouthink
+SC_QUESTION3 scientist/evergetout
+SC_QUESTION4 scientist/rightwayout
+SC_QUESTION5 scientist/cantbeworse
+SC_QUESTION6 scientist/rescueus
+SC_QUESTION7 scientist/fascinating
+SC_QUESTION8 scientist/stimulating
+SC_QUESTION9 scientist/luckwillchange
+SC_QUESTION10 scientist/hearsomething
+SC_QUESTION11 scientist/doyousmell
+SC_QUESTION12 scientist/uselessphd
+SC_QUESTION13 scientist/waithere
+SC_QUESTION14 scientist/survival
+SC_QUESTION15 scientist/headcrab
+SC_QUESTION16 scientist/goodpaper
+SC_QUESTION17 scientist/catchone
+SC_QUESTION18 scientist/dinner
+SC_QUESTION19 scientist/alientrick
+SC_QUESTION20 scientist/alienappeal
+SC_QUESTION21 scientist/rumorclean
+SC_QUESTION22 scientist/nothostile
+SC_QUESTION23 scientist/announcer
+SC_QUESTION24 scientist/smellburn
+SC_QUESTION25 scientist/noidea
+SC_QUESTION26 scientist/whatnext
+
+SC_IDLE0 scientist/ipredictedthis
+SC_IDLE1 scientist/containfail
+SC_IDLE2 scientist/chaostheory
+SC_IDLE3 scientist/howinteresting
+SC_IDLE4 scientist/neverseen
+SC_IDLE5 scientist/peculiarmarks
+SC_IDLE6 scientist/whoresponsible
+SC_IDLE7 scientist/nogrant
+SC_IDLE8 scientist/bloodsample
+SC_IDLE9 scientist/administrator
+SC_IDLE10 scientist/improbable
+SC_IDLE11 scientist/organicmatter
+SC_IDLE12 scientist/lambdalab
+SC_IDLE13 scientist/ihearsomething
+SC_NOGO scientist/dontgothere
+
+//Barney Redemption scripts
+
+BA_RED01 rede/redbarn/suitup
+BA_RED02 rede/redbarn/newsuit
+BA_RED03 rede/redbarn/onleft
+BA_RED04 rede/redbarn/onright
+BA_RED05 rede/redbarn/moths
+BA_RED06 rede/redbarn/setcord
+BA_RED06A rede/redbarn/typein
+BA_RED07 rede/redbarn/thefly
+
+//barney (pre disaster flag set)
+
+BA_POK0 barney/ba_post
+BA_POK1 barney/ba_duty
+BA_POK2 barney/ba_raincheck
+BA_POK3 barney/ba_later
+
+// BARNEY
+
+BA_OK0 barney/teamup2
+BA_OK1 barney/dobettertogether
+BA_OK2 barney/imwithyou
+BA_OK3 barney/teamup1
+BA_OK4 barney/gladtolendhand
+BA_OK5 barney/letsgo
+BA_OK6 barney/letsmoveit
+
+BA_WAIT0 barney/helpothers
+BA_WAIT1 barney/iwaithere
+BA_WAIT2 barney/slowingyoudown
+BA_WAIT3 barney/illwait
+BA_WAIT4 barney/seeya
+BA_WAIT5 barney/standguard
+
+// if barney can't follow you
+BA_STOP0 barney/stop1
+BA_STOP1 barney/stop2
+BA_STOP2 decay/barney/ba_stop1
+
+BA_HELLO0 barney/hellonicesuit
+BA_HELLO1 barney/howdy
+BA_HELLO2 barney/howyoudoing
+BA_HELLO3 barney/haybuddy
+BA_HELLO4 barney/hayfella
+BA_HELLO5 barney/heybuddy
+BA_HELLO6 barney/heyfella
+
+BA_QUESTION0 barney/beertopside
+BA_QUESTION1 barney/wayout
+BA_QUESTION2 barney/getanyworse
+BA_QUESTION3 barney/gladof38
+BA_QUESTION4 barney/workingonstuff
+BA_QUESTION5 barney/wayout
+BA_QUESTION6 barney/whatsgoingon
+BA_QUESTION7 barney/aintscared
+BA_QUESTION8 barney/nodrill
+BA_QUESTION9 barney/gettingcloser
+BA_QUESTION10 barney/youhearthat
+BA_QUESTION11 barney/crewdied
+BA_QUESTION12 barney/somethingmoves
+BA_QUESTION13 barney/thinking
+BA_QUESTION14 barney/missingleg
+
+BA_ANSWER0 barney/noway
+BA_ANSWER1 barney/ireckon
+BA_ANSWER2 barney/soundsright
+BA_ANSWER3 barney/yessir
+BA_ANSWER4 barney/youbet
+BA_ANSWER5 barney/yougotit
+BA_ANSWER6 barney/yup
+BA_ANSWER7 barney/dontaskme
+BA_ANSWER8 barney/dontbet
+BA_ANSWER9 barney/dontbuyit
+BA_ANSWER10 barney/dontfigure
+BA_ANSWER11 barney/dontguess
+BA_ANSWER12 barney/hardtosay
+BA_ANSWER13 barney/justdontknow
+BA_ANSWER14 barney/nope
+BA_ANSWER15 barney/nosir
+BA_ANSWER16 barney/cantfigure
+BA_ANSWER17 barney/maybe
+BA_ANSWER18 barney/notelling
+BA_ANSWER19 barney/bequiet
+BA_ANSWER20 barney/youtalkmuch
+BA_ANSWER21 barney/alreadyasked
+
+// player is staring at Barney
+BA_STARE0 barney/yup
+BA_STARE1 barney/yessir
+BA_STARE2 barney/howyoudoing
+BA_STARE3 barney/heyfella
+
+BA_IDLE0 barney/whatisthat
+BA_IDLE1 barney/coldone
+BA_IDLE2 barney/guyresponsible
+BA_IDLE3 barney/bigmess
+BA_IDLE4 barney/luckwillturn
+BA_IDLE5 barney/bigplace
+BA_IDLE6 barney/targetpractice
+BA_IDLE7 barney/badfeeling
+BA_IDLE8 barney/ambush
+BA_IDLE9 barney/survive
+BA_IDLE10 barney/stophere
+
+BA_ATTACK0 barney/openfire(e50)
+BA_ATTACK1 barney/openfire(s50)
+BA_ATTACK2 barney/standback
+BA_ATTACK3 barney/whatisthat
+BA_ATTACK4 barney/diebloodsucker
+BA_ATTACK5 barney/aimforhead
+
+BA_HEAR0 barney/hearsomething
+BA_HEAR1 barney/icanhear
+BA_HEAR2 barney/soundsbad
+
+BA_SMELL0 barney/somethingdied
+BA_SMELL1 barney/somethingstinky
+BA_SMELL2 barney/stench
+
+BA_CUREA barney/checkwounds
+BA_CUREB barney/youneedmedic
+BA_CUREC barney/realbadwound
+
+BA_SCARED0 barney/donthurtem
+BA_SCARED1 barney/leavealone
+
+BA_WOUND0 barney/imhit
+BA_WOUND1 barney/hitbad
+BA_MORTAL0 barney/imdead
+
+//If you shoot Barney:
+BA_SHOT0 barney/ba_whoathere
+BA_SHOT1 barney/ba_dotoyou
+BA_SHOT2 barney/ba_watchit
+BA_SHOT3 barney/ba_whatyou
+BA_SHOT4 barney/ba_friends
+BA_SHOT5 barney/ba_pissme
+
+//When Barney’s really pissed at you:
+BA_MAD0 barney/ba_stepoff
+BA_MAD1 barney/ba_iwish
+BA_MAD2 barney/ba_uwish
+BA_MAD3 barney/ba_somuch
+BA_MAD4 barney/ba_endline
+BA_MAD5 barney/ba_dontmake
+BA_MAD6 barney/ba_tomb
+
+//When Barney’s killed something
+BA_KILL0 barney/ba_gotone
+BA_KILL1 barney/ba_another
+BA_KILL2 barney/ba_buttugly
+BA_KILL3 barney/ba_seethat
+BA_KILL4 barney/ba_close
+BA_KILL5 barney/ba_firepl
+BA_KILL6 barney/ba_bring
+
+// ROY
+// roy scripts for carnival
+
+RO_RED01 rede/roy/hsguy
+RO_RED02 rede/roy/damnfool
+RO_RED03 rede/roy/loose
+
+// Roy scripts for safehouse
+RO_RED04 rede/roy/welldone
+RO_RED05 rede/roy/toilet
+RO_RED06 rede/roy/theadmin
+RO_RED07 rede/roy/fairwell
+
+//Roy (pre disaster flag set)
+
+RO_POK0 rede/roy/staypost
+RO_POK1 rede/roy/imonduty
+RO_POK2 rede/roy/doitlater
+RO_POK3 rede/roy/buyashot
+
+RO_OK0 rede/roy/coveryou
+RO_OK1 rede/roy/isgood
+RO_OK2 rede/roy/gethellout
+RO_OK3 rede/roy/betterchance
+RO_OK4 rede/roy/soundsgood
+RO_OK5 rede/roy/letsgo
+RO_OK6 rede/roy/letsmoveit
+
+// player is staring at Roy
+RO_STARE0 rede/roy/gordon
+RO_STARE1 rede/roy/bojoke1
+RO_STARE2 rede/roy/bojoke2
+RO_STARE3 rede/roy/bojoke3
+
+RO_WAIT0 rede/roy/helpothers
+RO_WAIT1 rede/roy/goonahead
+RO_WAIT2 rede/roy/illstayhere
+RO_WAIT3 rede/roy/illwait
+RO_WAIT4 rede/roy/seeingyou
+RO_WAIT5 rede/roy/standguard
+
+// if roy can't follow you
+RO_STOP0 rede/roy/asfarasigo
+RO_STOP1 rede/roy/keeplookout
+RO_STOP2 rede/roy/stophere
+
+RO_HELLO0 rede/roy/comrade
+RO_HELLO1 rede/roy/heygordon
+RO_HELLO2 rede/roy/hellosir
+RO_HELLO3 rede/roy/hellogordon
+RO_HELLO4 rede/roy/gordon
+RO_HELLO5 rede/roy/comrade
+RO_HELLO6 rede/roy/gordon2
+
+RO_QUESTION0 rede/roy/vodka
+RO_QUESTION1 rede/roy/youeverseen
+RO_QUESTION2 rede/roy/worsethanthis
+RO_QUESTION3 rede/roy/sidearm
+RO_QUESTION4 rede/roy/seesomethingmove
+RO_QUESTION5 rede/roy/notright
+RO_QUESTION6 rede/roy/whatisgoingon
+RO_QUESTION7 rede/roy/notscared
+RO_QUESTION8 rede/roy/takeserious
+RO_QUESTION9 rede/roy/gettingcloser
+RO_QUESTION10 rede/roy/pssst
+RO_QUESTION11 rede/roy/howmanydead
+RO_QUESTION12 rede/roy/seesomethingmove
+RO_QUESTION13 rede/roy/thinkingthesame
+RO_QUESTION14 rede/roy/didyouseethatthing
+
+RO_ANSWER0 rede/roy/notachance
+RO_ANSWER1 rede/roy/ireckon
+RO_ANSWER2 rede/roy/soundsgoodtome
+RO_ANSWER3 rede/roy/ofcourse
+RO_ANSWER4 rede/roy/naturaly
+RO_ANSWER5 rede/roy/youhavemyword
+RO_ANSWER6 rede/roy/nyes
+RO_ANSWER7 rede/roy/ihavenoidea
+RO_ANSWER8 rede/roy/donotbebetting
+RO_ANSWER9 rede/roy/dontbelievethat
+RO_ANSWER10 rede/roy/nothowiseethings
+RO_ANSWER11 rede/roy/notthinkingso
+RO_ANSWER12 rede/roy/notverycertain
+RO_ANSWER13 rede/roy/idonotknow
+RO_ANSWER14 rede/roy/nyett
+RO_ANSWER15 rede/roy/nyettcannot
+RO_ANSWER16 rede/roy/cannotfigure
+RO_ANSWER17 rede/roy/perhaps
+RO_ANSWER18 rede/roy/icanttell
+RO_ANSWER19 rede/roy/shutup
+RO_ANSWER20 rede/roy/youtalktomuch
+RO_ANSWER21 rede/roy/didyounotaskme
+
+RO_IDLE0 rede/roy/whatinthename
+RO_IDLE1 rede/roy/wishihadacold
+RO_IDLE2 rede/roy/responsibleformess
+RO_IDLE3 rede/roy/isnotright
+RO_IDLE4 rede/roy/protectus
+RO_IDLE5 rede/roy/lotofdistance
+RO_IDLE6 rede/roy/capitalistpig
+RO_IDLE7 rede/roy/ihavebadfeeling
+RO_IDLE8 rede/roy/becarefull
+RO_IDLE9 rede/roy/winthiswar
+RO_IDLE10 rede/roy/stophere
+
+RO_ATTACK0 rede/roy/openfiregordon(e50)
+RO_ATTACK1 rede/roy/openfiregordon(s50)
+RO_ATTACK2 rede/roy/standwellback
+RO_ATTACK3 rede/roy/whatastench
+RO_ATTACK4 rede/roy/diebastard
+RO_ATTACK5 rede/roy/aimforthehead
+
+RO_HEAR0 rede/roy/pssst
+RO_HEAR1 rede/roy/ithinkihear
+RO_HEAR2 rede/roy/uhoh
+
+RO_SMELL0 rede/roy/dieddownhere
+RO_SMELL1 rede/roy/somethingstinks
+RO_SMELL2 rede/roy/worsethanthis
+
+RO_CUREA rede/roy/painfull
+RO_CUREB rede/roy/youneedhelp
+RO_CUREC rede/roy/inbadshape
+
+RO_SCARED0 rede/roy/stopthat
+RO_SCARED1 rede/roy/areyoumad
+
+RO_WOUND0 rede/roy/canmakeit
+RO_WOUND1 rede/roy/beenshot
+RO_MORTAL0 rede/roy/stuffed
+
+//If you shoot Roy:
+RO_SHOT0 rede/roy/carefullwiththat
+RO_SHOT1 rede/roy/whatdotoyou
+RO_SHOT2 rede/roy/watchpoint
+RO_SHOT3 rede/roy/whatareyoutrying
+RO_SHOT4 rede/roy/pissmeoff
+RO_SHOT5 rede/roy/cutitout
+
+//When Roy’s really pissed at you:
+RO_MAD0 rede/roy/americanpd
+RO_MAD1 rede/roy/iregretthis
+RO_MAD2 rede/roy/youwillregret
+RO_MAD3 rede/roy/takesomuch
+RO_MAD4 rede/roy/endoftheline
+RO_MAD5 rede/roy/donttrypatience
+RO_MAD6 rede/roy/tombstone
+
+//When Roy’s killed something
+RO_KILL0 rede/roy/gotone
+RO_KILL1 rede/roy/gotanother
+RO_KILL2 rede/roy/oneless
+RO_KILL3 rede/roy/imsogood
+RO_KILL4 rede/roy/tooclose
+RO_KILL5 rede/roy/trophyroom
+RO_KILL6 rede/roy/makeyourmove
+
+// HUMAN GRUNTS
+HG_GREN0 hgrunt/clik(p120) grenade! clik
+HG_GREN1 hgrunt/(t30) clik take!(e75) cover!(s5) clik
+HG_GREN2 hgrunt/clik clik oh! shit! clik
+HG_GREN3 hgrunt/(p110 t40) clik(p120) get!(e78) down!(t30) clik 
+HG_GREN4 hgrunt/clik(p110) (t40) of!(e75) god! clik(p110)
+HG_GREN5 hgrunt/clik no! clik
+HG_GREN6 hgrunt/clik move! clik(p120)
+
+// Player Alert
+HG_ALERT0 hgrunt/(t30) squad!, we!(e80) got!(e80) tango!(t20 p105), clik(p110)
+HG_ALERT1 hgrunt/clik(p110) target! clik
+HG_ALERT2 hgrunt/clik movement! clik
+HG_ALERT3 hgrunt/(t40) shit!(t20), (t50) we! got! hostiles!(p120 t0) clik
+HG_ALERT4 hgrunt/(t20) clik(p110) squad!, get!(e80) some!, clik(p110) clik
+HG_ALERT5 hgrunt/(t20) clik squad!, neutralize!(e90) target! clik
+HG_ALERT6 hgrunt/(t30) clik clik move!(e75) in! clik(p120)
+
+// Monster Alert
+HG_MONST0 hgrunt/clik(p110) (t50) bogies!(t0), my! sector!(t0) clik
+HG_MONST1 hgrunt/clik(p110) (t40) clik(p120) we!(e75) got! bogies! clik
+HG_MONST2 hgrunt/clik clik (t30) alien!(e85) alert! clik
+HG_MONST3 hgrunt/clik clik (t30) alien!(e85) movement!(t0) clik(p120)
+
+// Take cover
+HG_COVER0 hgrunt/clik (t30) take! cover!(t0) clik
+HG_COVER1 hgrunt/clik (t45) (e75) I!(e80) need!(e80) suppressing!(t20) fire!(t10) clik
+HG_COVER2 hgrunt/clik (t45) we! need! backup!(t10) clik
+HG_COVER3 hgrunt/clik(p120) (t40) two!(e75) hot!(e80) here! clik
+HG_COVER4 hgrunt/clik(p110) (t30) fall!(e80) out! clik clik
+HG_COVER5 hgrunt/clik(p120) (t20) clear! this! area! clik
+HG_COVER6 hgrunt/clik (t40) god! damn! clik
+HG_COVER7 hgrunt/clik (t40) cover!(e75) fire! clik
+
+// Throw grenade
+HG_THROW0 hgrunt/clik(p120) (t40) fire!(e90) in!(e90) the!(e60) hole!(e100) clik
+HG_THROW1 hgrunt/clik (t30) take!(e75) this!(e100 t0) clik
+HG_THROW2 hgrunt/clik (t35) fire in the(e50) hole clik(p120)
+HG_THROW3 hgrunt/clik(p110) (t35 e80) squad, stay down clik
+ 
+// Taunt
+HG_TAUNT0 hgrunt/clik (t30 e75) uhh, we got heavy fire here clik
+HG_TAUNT1 hgrunt/clik(p120) (t40) roger, hold position clik
+HG_TAUNT2 hgrunt/clik (t40) we!(e80) will!(e75) kick!(e80) your!(e75) ass! clik
+HG_TAUNT3 hgrunt/clik (t40) mister, you(e75) are going down clik
+HG_TAUNT4 hgrunt/clik(p120) (t40) you got nothing clik
+HG_TAUNT5 hgrunt/clik(p110) (t40) request! backup! clik(p120) clik
+
+// Charge
+HG_CHARGE0 hgrunt/clik (t40) go! recon! clik(p120)
+HG_CHARGE1 hgrunt/clik(p110) (t40) move!(e75) in! clik
+HG_CHARGE2 hgrunt/clik go! clik(p120)
+HG_CHARGE3 hgrunt/clik lets! go! clik(p120)
+
+// Idle
+HG_IDLE0 hgrunt/gr_idle1
+HG_IDLE1 hgrunt/gr_idle2
+HG_IDLE2 hgrunt/gr_idle3
+
+HG_QUEST0 hgrunt/clik (t25) stay(e80) alert people clik(p120)
+HG_QUEST1 hgrunt/clik (t30) radio(e75) check, over clik(p120) 
+HG_QUEST2 hgrunt/clik (t20) maintain lookout clik(p120)
+HG_QUEST3 hgrunt/clik(p110) (t30) squad, quiet(e75) down clik(p120)
+HG_QUEST4 hgrunt/clik(p120) (t30) hold position, clik
+HG_QUEST5 hgrunt/clik(p120) (t30) sweep(e80) that sector, clik(p120) clik(p120)
+HG_QUEST6 hgrunt/clik(p120) (t30) uhh, go tango sweep formation clik(p120) clik(p120)
+HG_QUEST7 hgrunt/clik(p120) (t30) echo(e75) mission is go clik(p120) clik(p120)
+HG_QUEST8 hgrunt/clik(p110) (t30) fire(e75) team, weapons(e75) check ok clik(p120) clik
+HG_QUEST9 hgrunt/clik(p110) (t30) fire(e75) team, objective foxtrot niner clik(p120)
+HG_QUEST10 hgrunt/clik (t30) ok(e75) mission, zero(e75) niner clik
+HG_QUEST11 hgrunt/clik (t30) squad, stay(e80) alert(e80) four hostiles, over clik
+
+HG_ANSWER0 hgrunt/clik(p110) (t20) uhh roger(e75) that, clik(p120) clik
+HG_ANSWER1 hgrunt/clik(p120) (t10) yessir clik
+HG_ANSWER2 hgrunt/clik(p120) (t30) affirmative, sir clik
+HG_ANSWER3 hgrunt/clik (t30) negative clik(p120) clik
+HG_ANSWER4 hgrunt/clik(p105) (t30) roger clik
+HG_ANSWER5 hgrunt/clik(p105) (t30) ok control clik
+HG_ANSWER6 hgrunt/clik(p105) (t30) that(e75) is, uhh, affirmative clik
+
+HG_CLEAR0 hgrunt/clik(p130) (t30) all(e75) clear sir, clik
+HG_CLEAR1 hgrunt/clik (t30) bravo(e75) post, clear clik(p120)
+HG_CLEAR2 hgrunt/clik(p110) (t30) delta(e75) team, clear clik(p120)
+HG_CLEAR3 hgrunt/clik(p110) (t40) no sign hostiles sir, over clik(p120)
+HG_CLEAR4 hgrunt/clik (t30) no(e80) sign objective sir, over clik(p120)
+HG_CLEAR5 hgrunt/clik (t30) no(e75) movement this level clik(p120)
+HG_CLEAR6 hgrunt/clik(p120) (t28) sir, sector secure, over clik(p120) clik(p120)
+HG_CLEAR7 hgrunt/clik(p120) (t30) command(e75) post, team in position, over clik
+HG_CLEAR8 hgrunt/clik (t30) recon, in(e75) position, all quiet clik(p120)
+HG_CLEAR9 hgrunt/clik(p110) (t30) lookout(e90) post, all quiet, over clik(p110)
+HG_CLEAR10 hgrunt/clik (t40) sir, I(e80) here(e75) something clik
+HG_CLEAR11 hgrunt/clik(p120) (t30) sir, uhh, zero movement, over clik
+HG_CLEAR12 hgrunt/clik (t30) area secure sir, over clik(p120)
+
+HG_CHECK0 hgrunt/clik (t30) ok, check(e75) in clik
+HG_CHECK1 hgrunt/clik(p110) (t30) squad, are(e80) hostiles clear clik(p120)
+HG_CHECK2 hgrunt/clik (t30) check(e80) in people clik
+HG_CHECK3 hgrunt/clik (t30) lookout, check(e75) in clik(p110)
+HG_CHECK4 hgrunt/clik (t30) recon(e90) team, check(e80) in clik
+HG_CHECK5 hgrunt/clik(p130) (t30) movement check, over clik
+HG_CHECK6 hgrunt/clik (t30) check your zone, over, clik
+HG_CHECK7 hgrunt/clik (t30) everything(e85) ok(e75) there, clik(p130)
+
+//narrative
+
+HG_SNOOP1A hgrunt/c2a2_hg_chat1a
+HG_SNOOP2A hgrunt/c2a2_hg_chat2a
+HG_SNOOP3A hgrunt/c2a2_hg_chat3a
+HG_SNOOP4A hgrunt/c2a2_hg_chat4a
+HG_SNOOP5A hgrunt/c2a2_hg_chat5a
+
+HG_DRAG1A hgrunt/c2a3_hg_1drag
+HG_DRAG2A hgrunt/c2a3_hg_2drag
+HG_DRAG3A hgrunt/c2a3_hg_3drag
+HG_DRAG4A hgrunt/c2a3_hg_4drag
+HG_DRAG5A hgrunt/c2a3_hg_5drag
+HG_DRAG6A hgrunt/c2a3_hg_laugh
+
+HG_SUCKS hgrunt/hg_sucks
+HG_CIVVIES hgrunt/hg_civvies
+
+// alien slave
+SLV_IDLE0 aslave/slv_word1 slv_word2
+SLV_IDLE1 aslave/slv_word2 slv_word3(p95)
+SLV_IDLE2 aslave/slv_word3 slv_word4
+SLV_IDLE3 aslave/slv_word4 slv_word5 slv_word5(p90)
+SLV_IDLE4 aslave/slv_word2(p110) slv_word6 slv_word7 slv_word3
+SLV_IDLE5 aslave/slv_word6 slv_word7 slv_word2
+SLV_IDLE6 aslave/slv_word7 slv_word8 slv_word3
+SLV_IDLE7 aslave/slv_word8 slv_word1 slv_word8 slv_word8(p95)
+SLV_IDLE8 aslave/slv_word1(p115) slv_word6
+SLV_IDLE9 aslave/slv_word3 slv_word3(p90)
+SLV_IDLE10 aslave/slv_word7(p85)
+
+SLV_ALERT0 aslave/(p105) slv_alert1 slv_word2
+SLV_ALERT1 aslave/(p105) slv_word8 slv_word8 slv_word8 slv_word5
+SLV_ALERT2 aslave/(p105) slv_alert4 slv_word4 slv_alert3
+SLV_ALERT3 aslave/(p108) slv_alert1 slv_word5
+SLV_ALERT4 aslave/(p108) slv_word5(p110) slv_word8 slv_word8
+SLV_ALERT5 aslave/(p108) slv_alert4 slv_word7 slv_alert1
